@@ -21,36 +21,31 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-"""ʜᴏɪ,
-ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ TAGALL ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! 
-*𝐇𝐄𝐘! ,*
-┏━━━━━━━━━━━━━━━━
-┣ ₪ *ADD ME YOUR GROUP* `
-┣ ₪ IAM POWER FULL TAGGER BOT
-┗━━━━━━━━━━━━━━━━━
+"""Hi,
+Hey! I can help notify everyone 📢 in the group when someone needs them. 
+Developed by Wallet Ai ,*
  
-  ʜɪᴛ /help **FOR MORE**
- [❤](https://telegra.ph/file/2fa3a833f3ccc1d98dba1.jpg),
-""",
+  Hit /help For More;
     link_preview=False,
     buttons=(
        [
-        Button.url(' support', 'https://t.me/chucky_support'),
-        Button.url('creater', 'https://t.me/kittu_the_criminall')
+        Button.url(' add to Group', 'https://t.me/walletaimentionbot?startgroup'),
+        Button.url('wallet Ai', 'https://t.me/walletaibsc')
     ],
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "COMMANDS:@all,/cancel. excample @all hi add me your groups iam best tagger pro bot"
+  helptext = "Commands : @all , /cancel . 
+  excample @all hi add me your groups iam best tagger pro bot"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url(' support', 'https://t.me/chucky_support'),
-        Button.url('creater', 'https://t.me/kittu_the_criminall')
+        Button.url(' add to Group', 'https://t.me/walletaimentionbot?startgroup'),
+        Button.url('wallet Ai', 'https://t.me/walletaibsc')
       ]
     )
   )
