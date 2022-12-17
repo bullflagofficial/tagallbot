@@ -43,7 +43,7 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "Commands : @all , /cancel . 
+  helptext = "Commands : @all , /cancel. excample @all hi add me your groups iam best tagger pro bot"
   excample @all hi add me your groups iam best tagger pro bot"
   await event.reply(
     helptext,
