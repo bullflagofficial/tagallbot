@@ -22,10 +22,16 @@ spam_chats = []
 async def start(event):
   await event.reply(
 """ʜᴏɪ,
-Hey! I can help notify everyone 📢 in the group when someone needs them. 
-Developed by Wallet Ai ,*
+ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ TAGALL ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! 
+*𝐇𝐄𝐘! ,*
+┏━━━━━━━━━━━━━━━━
+┣ ₪ *ADD ME YOUR GROUP* `
+┣ ₪ IAM POWER FULL TAGGER BOT
+┗━━━━━━━━━━━━━━━━━
  
-  Hit /help For More;
+  ʜɪᴛ /help **FOR MORE**
+ [❤](https://telegra.ph/file/2fa3a833f3ccc1d98dba1.jpg),
+""",
     link_preview=False,
     buttons=(
        [
