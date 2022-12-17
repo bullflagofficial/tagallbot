@@ -35,8 +35,8 @@ async def start(event):
     link_preview=False,
     buttons=(
        [
-        Button.url(' add to Group', 'https://t.me/walletaimentionbot?startgroup'),
-        Button.url('wallet Ai', 'https://t.me/walletaibsc')
+        Button.url(' support', 'https://t.me/chucky_support'),
+        Button.url('creater', 'https://t.me/kittu_the_criminall')
     ],
     )
   )
@@ -49,8 +49,8 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url(' add to Group', 'https://t.me/walletaimentionbot?startgroup'),
-        Button.url('wallet Ai', 'https://t.me/walletaibsc')
+        Button.url(' support', 'https://t.me/chucky_support'),
+        Button.url('creater', 'https://t.me/kittu_the_criminall')
       ]
     )
   )
